@@ -1,0 +1,15 @@
+{
+  "name": "agentseenoevil",
+  "version": "0.1.0",
+  "description": "Input stream redactor — scans for secrets and API keys before agents see them",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test --experimental-strip-types agentseenoevil.test.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["redaction", "secrets", "security", "agents"],
+  "author": "James Couch",
+  "license": "MIT"
+}
